@@ -13,12 +13,19 @@ def main():
 
 		for j in range(number_of_stars):
 			if is_horizontal:
+<<<<<<< HEAD
 				screen_output += "+"
 				continue
 			if (j == 0) or (j == (number_of_stars - 1)):
 				screen_output += "+"
+=======
+				screen_output += " "
 				continue
-			screen_output += " "
+			if (j == 0) or (j == (number_of_stars - 1)):
+				screen_output += " "
+>>>>>>> changes_b_from_pavel
+				continue
+			screen_output += "*"
 		screen_output += "\n"
 
 	return screen_output	
